@@ -51,6 +51,8 @@ body {
 .container__title {
     font-size: 28px;
     font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0,0,0);
+    color: #f7f8f9;
 }
 
 .container__warning {
@@ -59,9 +61,44 @@ body {
 }
 
 .container__image {
-    margin: 1em 2em 0;
+    margin: 1em 0 2em 0;
 }
 
 .container__box {
     margin: 0 6em;
 }
+
+.secondary__Image {
+    width: 80%;
+}
+
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--primary-white);
+    margin-bottom: 0.1;
+}
+
+.description__text {
+    color: var(--secondary-gray);
+}
+
+.secondary__button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description {
+    padding: 2em;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+}
+

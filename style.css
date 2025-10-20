@@ -100,5 +100,20 @@ body {
 .devices__list {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
 }
 
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 48px ;
+    color: var(--primary-white);
+}
+
+.list__item {
+    font-size: 32px;
+    color: var(--primary-white);
+}

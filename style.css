@@ -117,3 +117,32 @@ body {
     font-size: 32px;
     color: var(--primary-white);
 }
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em
+}
+
+.list__link a{
+    text-decoration: none;
+    color: var(--primary-white);
+    margin-left: 1em;
+}
+
+.footer__text {
+    margin: 1em 0;
+    color: var(--secondary-gray);
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
